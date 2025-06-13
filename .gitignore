@@ -1,0 +1,95 @@
+# Arquivos de Log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diretórios de dependências (gerenciados por npm, yarn, pnpm)
+node_modules/
+jspm_packages/
+bower_components/
+
+# Arquivos de ambiente - NUNCA versionar arquivos .env com segredos!
+# Versionar apenas os arquivos de exemplo (ex: .env.example)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Arquivos de build e distribuição
+dist/
+dist-ssr/
+*.egg-info/
+.tmp/
+.quasar/
+/build/
+/public/build/
+/public/hot # Laravel Mix
+target/ # Comum em projetos Java/Maven/Scala, mas pode aparecer
+out/   # Comum em projetos Java/Kotlin
+
+# Arquivos específicos do Vue.js / Vue CLI
+*.hot-update.json
+*.hot-update.js
+public/bundle.js # Se você não estiver usando a estrutura padrão do Vue CLI
+npm-shrinkwrap.json # Se você não o usa ativamente
+package-lock.json # Se você usa yarn.lock ou pnpm-lock.yaml e quer padronizar
+yarn.lock # Se você usa package-lock.json ou pnpm-lock.yaml e quer padronizar
+pnpm-lock.yaml # Se você usa package-lock.json ou yarn.lock e quer padronizar
+
+# Arquivos de cache e temporários
+.cache
+.npm
+.yarn-cache
+.eslintcache
+.stylelintcache
+.parcel-cache
+.vuepress/dist
+.vuepress/.temp
+.vite-inspect/
+
+# Configurações de IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw? # Arquivos de swap do Vim
+
+# Arquivos do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+._*
+.Spotlight-V100
+.Trashes
+
+# Arquivos do Windows
+desktop.ini
+
+# Arquivos de Teste e Cobertura
+coverage/
+.nyc_output/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Arquivos gerados por ferramentas de build específicas
+webpack.config.js.old # Exemplo de backup que não deve ser versionado
+
+# Arquivos de banco de dados locais (se você usa SQLite localmente para testes, etc.)
+*.sqlite
+*.sqlite3
+*.db
+
+# Outros
+*.tsbuildinfo # TypeScript incremental build info
+
